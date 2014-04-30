@@ -16,7 +16,7 @@ body {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: bold;
   margin: 0;
   display: block;
@@ -513,7 +513,16 @@ hr {
   float: right; }
 
 .game-explanation {
-  margin-top: 50px; }
+  margin-top: 25px; }
+/* Here comes Apprendix */
+.apprendix {
+    font-size: 14px;}
+    @media screen and (max-width: 520px) {
+        .apprendix {
+        font-size: 10px; }}
+.share {
+    width: 100px;
+    margin: 0 auto; }
 
 @media screen and (max-width: 520px) {
   html, body {

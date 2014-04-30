@@ -19,7 +19,7 @@
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">2048°</h1>
+      <h1 class="title">2048 :<span style="color: red;">*</span>)</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -73,20 +73,29 @@
     </div>
 
     <p class="game-explanation">
-      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same drink touch, the barman <strong>gets you a better drink!</strong> Drink with a friend, and <strong>double enjoy!</strong>
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same drink touch, the barman <strong>gets you a better drink!</strong> Drink with a friend, and <strong>enjoy double!</strong>
     </p>
+        <div class="share">
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>    
+    <div class="fb-share-button" data-href="http://apprendix.github.io/Drink2048/" data-type="button_count"></div> 
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out this version of 2048" data-via="Salamandra4U" data-hashtags="2048">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>    
+    
+      
+      </div>  
     <hr>
-    <p>
-    <strong class="important">Note:</strong> This is a variation of <a href="http://gabrielecirulli.github.io/2048">2048</a>, made for the <a href="http://isweedaddictive.com" target="Is Weed Addictive?">IWA community</a>. 
-    </p>
-    <hr>
-    <p>
-    Created by Apprendix, based on the official version by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> 
-    </p>
-    <p><a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out this version of 2048" data-via="Salamandra4U" data-size="large" data-hashtags="2048">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> </br></br>
-    <a href="http://www.freecounterstat.com" target="_Blank" title="web hit counter">web hit counter</a><br/>
-    <script type="text/javascript" src="http://counter5.statcounterfree.com/private/counter.js?c=74b999217ffa873ae74be42390c539b0"></script></p>
+    <p class="apprendix">
+    <strong class="important">Note:</strong> This is a variation of <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli</a>'s <a href="http://gabrielecirulli.github.io/2048">2048</a>, made by Apprendix for the <a href="http://isweedaddictive.com" target="Is Weed Addictive?">IWA community</a>. <em>Please drink responsibly.</em></p>
+        
+    <a class="share" href="http://www.freecounterstat.com" target="_Blank" title="web hit counter"></a><br/>
+    <script type="text/javascript" src="http://counter5.statcounterfree.com/private/counter.js?c=74b999217ffa873ae74be42390c539b0"></script>
   </div>
 
   <script src="js/bind_polyfill.js"></script>
