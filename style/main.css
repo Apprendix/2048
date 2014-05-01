@@ -521,8 +521,12 @@ hr {
         .apprendix {
         font-size: 10px; }}
 .share {
-    width: 100px;
+    width: 120px;
     margin: 0 auto; }
+#pirsum{
+  width: 480px;
+  margin: 0 auto;
+}    
 
 @media screen and (max-width: 520px) {
   html, body {
